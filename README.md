@@ -1,19 +1,22 @@
 Trello Presenter
 ================
 
-Convert JSON output from Trello to presentable markdown format
+Convert JSON output from Trello to markdown format. Great for updating
+clients.
 
 ## Usage
 
-First, download a JSON copy of your Trello board 
+First, download a JSON copy of your Trello board:
 
-`Options > Share, Print, Export > Export JSON`
+```
+Options > Share, Print, Export > Export JSON
+```
 
 Then feed the JSON through Trello Presenter:
 
 
 ```bash
-$ bin/trello_presenter input.json nice.markdown
+$ bin/trello_presenter input.json output.markdown
 ```
 
 ## License
